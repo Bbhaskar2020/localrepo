@@ -1,0 +1,12 @@
+[1mdiff --git a/python Practice.py b/python Practice.py[m
+[1mindex 43509ff..42b6b93 100644[m
+[1m--- a/python Practice.py[m	
+[1m+++ b/python Practice.py[m	
+[36m@@ -2,6 +2,6 @@[m [ma = "bhaskar"[m
+ b = len(a)[m
+ print("This is the length count..", b)[m
+ [m
+[32m+[m[32mPrint("Hi this is 2nd rapo")[m
+ Print("Hi that is first rapo")[m
+ [m
+[31m-[m
