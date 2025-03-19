@@ -1,9 +1,19 @@
-def vowels(text):
+def c_vowels(text):
     count = 0
-    for character in text:
-        if character in ("aAeEiIoOuU"):
+    for i in text:
+        if (i in 'aAeEiIoOuU'):
+            count+=1
+    return count
+text = input('Enter the sentance.')
+count = c_vowels(text)
+print("Here you go ", count)
+
+def check_vowels(text):
+    count = 0
+    for i in text:
+        if (i in 'aAeEiIoOuU'):
             count += 1
     return count
-text = input("Text is: ")
-count = vowels(text)
-print("This is the vowels count: ", count)
+text=input("Enter the text..")
+count=check_vowels(text)
+print("Here is the number", count)
