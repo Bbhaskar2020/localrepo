@@ -1,13 +1,3 @@
-def c_vowels(text):
-    count = 0
-    for i in text:
-        if (i in 'aAeEiIoOuU'):
-            count+=1
-    return count
-text = input('Enter the sentance.')
-count = c_vowels(text)
-print("Here you go ", count)
-
 def check_vowels(text):
     count = 0
     for i in text:
