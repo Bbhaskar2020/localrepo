@@ -6,7 +6,7 @@ def print_dialog(dialog):
     message = dialog.message
     text_alert.append(message)
     dialog.dismiss() #dismiss means clicking on cancel button on dialog pop-up
-    # dialog.accept() #dismiss means clicking on OK button on dialog pop-up
+    # dialog.accept() #accept means clicking on OK button on dialog pop-up
 
 
 with sync_playwright() as p:
@@ -24,5 +24,3 @@ with sync_playwright() as p:
     page.wait_for_selector('//div[@id="CancelTab"]/button').click()
     page.wait_for_timeout(2000)
     print(text_alert[0])
-
-
