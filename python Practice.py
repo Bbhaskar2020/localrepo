@@ -1,6 +1,6 @@
-print("Hi that is Feature1 repo")
-print("Hi this is main rapo")
-print("Hello world..")
 
-
-
+a = 10
+b = 20
+def addnumber(a, b):
+    return a+b
+print(a+b)
