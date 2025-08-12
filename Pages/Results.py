@@ -8,5 +8,3 @@ class duckResultPage:
         self.page = page
         self.result = page.locator('//input[@id="search_form_input"]')
         self.result_display = page.locator('//input[@id="search_form_input"]')
-
-    def

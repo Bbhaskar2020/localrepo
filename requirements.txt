@@ -1,0 +1,11 @@
+playwright~=1.49.1
+pytest~=8.3.4
+css
+CopyEdit
+playwright
+pytest
+pytest-html
+Install everything:
+bash
+pip install -r requirements.txt
+playwright install

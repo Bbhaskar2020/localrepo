@@ -8,6 +8,6 @@ with sync_playwright() as p:
 
     search_page = DuckDuck_searchPage(page)
 
-    search_page.load()
+    search_page.load()  
 
     search_page.search('bhaskar')
